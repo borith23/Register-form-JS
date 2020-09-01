@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>test size screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="d-lg-none text-white">hide on screens wider than lg</div>
+    <div class="d-none d-lg-block text-white">hide on screens smaller than lg</div>
+    <div class="d-print-none text-white">Screen Only (Hide on print only)</div>
+    <div class="d-none d-print-block text-white">Print Only (Hide on screen only)</div>
+    <div class="d-none d-lg-block d-print-block text-white">Hide up to large on screen, but always show on print</div>
+
+
+    <div class="container text-white">
+        <h1>Width Utilities</h1>
+        <div class="w-25 bg-warning">Width 25%</div>
+        <div class="w-50 bg-warning">Width 50%</div>
+        <div class="w-75 bg-warning">Width 75%</div>
+        <div class="w-100 bg-warning">Width 100%</div>
+        <div class="mw-100 bg-warning">Max Width 100%</div>
+    </div>
+
+
+    <div class="container mt-5 text-white">
+        <h1>Height Utilities</h1>
+        <div style="height:200px;background-color:#ddd">
+          <div class="h-25 d-inline-block p-2 bg-warning">Height 25%</div>
+          <div class="h-50 d-inline-block p-2 bg-warning">Height 50%</div>
+          <div class="h-75 d-inline-block p-2 bg-warning">Height 75%</div>
+          <div class="h-100 d-inline-block p-2 bg-warning">Height 100%</div>
+          <div class="mh-100 d-inline-block p-2 bg-warning" style="height:500px">Max Height 100%</div>
+        </div>
+      </div>
+
+</body>
+</html>
